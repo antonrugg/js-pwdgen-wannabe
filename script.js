@@ -1,9 +1,9 @@
-let name = prompt("What's your name?");
-let surname = prompt("What's your surname?");
-let favouriteColor = prompt("What's your favourite color?");
+const name = prompt("What's your name?");
+const surname = prompt("What's your surname?");
+const favouriteColor = prompt("What's your favourite color?");
 //Chiediamo all'utente tre domande tramite prompt
 
-let password = name + surname + favouriteColor + Math.floor((Math.random() * 100) + 1);
+const password = name + surname + favouriteColor + Math.floor((Math.random() * 100) + 1);
 //Generiamo una password con cio' che ha inserito nelle tre domande e aggiungiamo un numero casuale da 1 a 100 alla fine
 
 console.log(`${name}${surname}${favouriteColor}21`);
